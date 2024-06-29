@@ -1,0 +1,11 @@
+sudo apt update
+sudo apt install curl
+
+#To display the output in terminal
+curl -i youtube.com
+curl -i news18.com
+
+#To display the output in a separate text file
+curl -i https://google.com | tee output.txt
+
+#Run in Kali Linux Virtual Machine
